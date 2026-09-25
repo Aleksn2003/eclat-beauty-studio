@@ -18,7 +18,7 @@ npm run preview
 
 ## Deployment
 
-GitHub Pages deployment is handled by `.github/workflows/deploy.yml`. It builds the site for the repository path and publishes the `dist` directory when the workflow is run from the Actions tab.
+GitHub Pages deployment is handled by `.github/workflows/deploy.yml`. It builds and publishes `dist` automatically when changes reach `main`; you can also run it manually from the Actions tab.
 
 ## Demo content
 
