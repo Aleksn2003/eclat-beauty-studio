@@ -11,10 +11,10 @@ const categories = [{ id: 'all', name: 'Все работы' }, { id: 'hair', na
 // These are visual comparison DEMOS, not real client before/after claims.
 // Replace before and after with a consented, matched client photo pair before launch.
 const portfolio = [
-  { id: 1, category: 'hair', title: 'Мягкость и характер', label: 'ОКРАШИВАНИЕ И УКЛАДКА', before: 'hair.jpg', after: 'hair.jpg', position: '50% 30%' },
-  { id: 2, category: 'skin', title: 'Естественное сияние', label: 'УХОД ЗА ЛИЦОМ', before: 'portrait.jpg', after: 'portrait.jpg', position: '50% 35%' },
-  { id: 3, category: 'nails', title: 'Завершающий штрих', label: 'МАНИКЮР И ПОКРЫТИЕ', before: 'nails.jpg', after: 'nails.jpg', position: '50% 50%' },
-  { id: 4, category: 'brows', title: 'Мягкая выразительность', label: 'БРОВИ И РЕСНИЦЫ', before: 'makeup.jpg', after: 'makeup.jpg', position: '50% 40%' },
+  { id: 1, category: 'hair', title: 'Мягкость и характер', label: 'ОКРАШИВАНИЕ И УКЛАДКА', before: 'hair.webp', after: 'hair.webp', position: '50% 30%' },
+  { id: 2, category: 'skin', title: 'Естественное сияние', label: 'УХОД ЗА ЛИЦОМ', before: 'portrait.webp', after: 'portrait.webp', position: '50% 35%' },
+  { id: 3, category: 'nails', title: 'Завершающий штрих', label: 'МАНИКЮР И ПОКРЫТИЕ', before: 'nails.webp', after: 'nails.webp', position: '50% 50%' },
+  { id: 4, category: 'brows', title: 'Мягкая выразительность', label: 'БРОВИ И РЕСНИЦЫ', before: 'makeup.webp', after: 'makeup.webp', position: '50% 40%' },
 ]
 const visibleCards = computed(() => activeCategory.value === 'all' ? portfolio : portfolio.filter(item => item.category === activeCategory.value))
 const comparisons = ref(Object.fromEntries(portfolio.map(item => [item.id, 48])))

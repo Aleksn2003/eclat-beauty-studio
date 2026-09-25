@@ -10,7 +10,7 @@ const { initial, visible, transition, reducedMotion } = useReveal()
 <template>
   <section class="overflow-hidden bg-[#faf8f4]">
     <div class="hero-scene relative isolate">
-      <img :src="asset('hero-salon-wide.png')" alt="Светлый интерьер салона с креслом и зеркалом в золотистой раме — сгенерированная иллюстрация" class="hero-image absolute inset-0 -z-20 h-full w-full object-cover" fetchpriority="high" width="1672" height="941" />
+      <img :src="asset('hero-salon-wide.webp')" alt="Светлый интерьер салона с креслом и зеркалом в золотистой раме — сгенерированная иллюстрация" class="hero-image absolute inset-0 -z-20 h-full w-full object-cover" fetchpriority="high" width="1672" height="941" />
       <div class="hero-veil absolute inset-0 -z-10" aria-hidden="true"></div>
       <div class="container-shell hero-content relative flex flex-col justify-center">
         <Motion :initial="initial" :animate="visible" :transition="transition()" class="hero-copy max-w-[600px]">
@@ -23,7 +23,7 @@ const { initial, visible, transition, reducedMotion } = useReveal()
           </div>
           <aside aria-label="Примеры отзывов" class="mt-5 w-fit max-w-[340px] rounded-xl border border-white/80 bg-white/75 px-3 py-2.5 backdrop-blur-sm">
             <div class="flex items-center gap-2.5">
-              <div class="flex -space-x-2" aria-hidden="true"><img v-for="photo in ['portrait.jpg', 'hair.jpg', 'makeup.jpg']" :key="photo" :src="asset(photo)" alt="" class="h-7 w-7 rounded-full border-2 border-white object-cover" /></div>
+              <div class="flex -space-x-2" aria-hidden="true"><img v-for="photo in ['portrait.webp', 'hair.webp', 'makeup.webp']" :key="photo" :src="asset(photo)" alt="" class="h-7 w-7 rounded-full border-2 border-white object-cover" /></div>
               <div><p class="text-[10px] font-semibold text-brand-700">Ваша красота — ваш ритм</p><div class="mt-1 flex items-center gap-1 text-brand-600"><Star v-for="n in 5" :key="n" :size="9" fill="currentColor" aria-hidden="true" /><span class="ml-1 text-[8px] text-slate-500">Примеры отзывов</span></div></div>
             </div>
             <p class="mt-2 text-[9px] leading-relaxed text-slate-600">«Бережный уход» · «Красиво и без спешки»</p>

@@ -15,7 +15,7 @@ const { initial, visible, viewport, transition } = useReveal()
     </Motion>
     <div class="grid gap-4 md:grid-cols-[1.15fr_.85fr]">
       <Motion :initial="initial" :while-in-view="visible" :in-view-options="viewport" :transition="transition(.04)" class="relative flex min-h-[330px] overflow-hidden rounded-[24px] bg-[#d8cbbb] text-white md:min-h-[460px]">
-        <img :src="asset('approach-room.png')" alt="Сгенерированная иллюстрация светлого интерьера для ухода за собой" loading="lazy" class="absolute inset-0 h-full w-full object-cover" />
+        <img :src="asset('approach-room.webp')" alt="Сгенерированная иллюстрация светлого интерьера для ухода за собой" loading="lazy" class="absolute inset-0 h-full w-full object-cover" />
         <div class="absolute inset-0 bg-gradient-to-t from-[#211b16]/80 via-[#211b16]/20 to-transparent" aria-hidden="true"></div>
         <div class="relative mt-auto max-w-[470px] p-7 md:p-10">
           <p class="mb-3 text-[11px] font-semibold tracking-[.16em]">ВАШЕ ВРЕМЯ</p>
