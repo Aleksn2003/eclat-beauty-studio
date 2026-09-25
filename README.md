@@ -18,7 +18,7 @@ npm run preview
 
 ## Deployment
 
-The site is configured for relative asset paths and can be deployed as a static Vite build. For GitHub Pages, build the project and publish the `dist` directory.
+GitHub Pages deployment is handled by `.github/workflows/deploy.yml`. It builds the site for the repository path and publishes the `dist` directory when the workflow is run from the Actions tab.
 
 ## Demo content
 

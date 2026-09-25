@@ -79,6 +79,7 @@ const imageSources = [
 
 const hasPhone = computed(() => Boolean(studio.phone))
 const hasMessenger = computed(() => Boolean(studio.messengerUrl))
+const baseUrl = import.meta.env.BASE_URL
 </script>
 
 <template>
@@ -307,9 +308,9 @@ const hasMessenger = computed(() => Boolean(studio.messengerUrl))
         </div>
 
         <nav aria-label="Документы и информация" class="mt-7 flex flex-wrap gap-x-7 gap-y-3 border-t border-[#f0eee8] pt-6 text-[11px]">
-          <a href="/legal/requisites.html" class="underline decoration-[#e7d6bf] underline-offset-4 transition-colors hover:text-[#946431]">Реквизиты</a>
-          <a href="/legal/terms.html" class="underline decoration-[#e7d6bf] underline-offset-4 transition-colors hover:text-[#946431]">Условия услуг</a>
-          <a href="/legal/privacy.html" class="underline decoration-[#e7d6bf] underline-offset-4 transition-colors hover:text-[#946431]">Политика конфиденциальности</a>
+          <a :href="baseUrl + 'legal/requisites.html'" class="underline decoration-[#e7d6bf] underline-offset-4 transition-colors hover:text-[#946431]">Реквизиты</a>
+          <a :href="baseUrl + 'legal/terms.html'" class="underline decoration-[#e7d6bf] underline-offset-4 transition-colors hover:text-[#946431]">Условия услуг</a>
+          <a :href="baseUrl + 'legal/privacy.html'" class="underline decoration-[#e7d6bf] underline-offset-4 transition-colors hover:text-[#946431]">Политика конфиденциальности</a>
           <details class="relative">
             <summary class="cursor-pointer list-none underline decoration-[#e7d6bf] underline-offset-4 transition-colors hover:text-[#946431]">Источники фотографий</summary>
             <ul class="absolute bottom-full left-0 z-10 mb-2 grid min-w-52 gap-2 rounded-xl border border-[#eee9df] bg-white p-4 shadow-lg">
