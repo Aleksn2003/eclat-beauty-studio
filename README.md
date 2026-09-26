@@ -6,6 +6,12 @@
 
 В репозитории нет открытой лицензии (`LICENSE`). Это уведомление фиксирует намерение автора, но не заменяет юридическую консультацию или отдельную лицензию.
 
+### English version
+
+Template author: [Aleksn2003](https://github.com/Aleksn2003). All rights to the source code, structure, and design of the template created by the author remain with the author. Use, copying, modification, or distribution of the template or any part of it beyond the functionality provided by GitHub requires the author's prior permission. The public repository may be viewed and forked on GitHub under the [GitHub Terms of Service](https://docs.github.com/en/site-policy/github-terms/github-terms-of-service); this does not grant an open license to reuse the template.
+
+This repository does not include an open-source license (`LICENSE`). This notice records the author's intent but is not legal advice and does not replace a separate license.
+
 A responsive single-page beauty studio website built with Vue 3, Vite, Tailwind CSS, and Motion.
 
 ## Development
