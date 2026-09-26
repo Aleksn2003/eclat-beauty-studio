@@ -311,6 +311,7 @@ const baseUrl = import.meta.env.BASE_URL
           <a :href="baseUrl + 'legal/requisites.html'" class="underline decoration-[#e7d6bf] underline-offset-4 transition-colors hover:text-[#946431]">Реквизиты</a>
           <a :href="baseUrl + 'legal/terms.html'" class="underline decoration-[#e7d6bf] underline-offset-4 transition-colors hover:text-[#946431]">Условия услуг</a>
           <a :href="baseUrl + 'legal/privacy.html'" class="underline decoration-[#e7d6bf] underline-offset-4 transition-colors hover:text-[#946431]">Политика конфиденциальности</a>
+          <a href="https://github.com/Aleksn2003" target="_blank" rel="noopener noreferrer" class="underline decoration-[#e7d6bf] underline-offset-4 transition-colors hover:text-[#946431]">Автор: Aleksn2003</a>
           <details class="relative">
             <summary class="cursor-pointer list-none underline decoration-[#e7d6bf] underline-offset-4 transition-colors hover:text-[#946431]">Источники фотографий</summary>
             <ul class="absolute bottom-full left-0 z-10 mb-2 grid min-w-52 gap-2 rounded-xl border border-[#eee9df] bg-white p-4 shadow-lg">
@@ -320,6 +321,7 @@ const baseUrl = import.meta.env.BASE_URL
             </ul>
           </details>
         </nav>
+        <p class="mt-4 max-w-3xl text-[10px] leading-relaxed text-[#8a908b]">Материалы сайта защищены авторским правом. Копирование, распространение и коммерческое использование допускаются только с предварительного письменного разрешения автора.</p>
         <p class="mt-5 text-[10px] leading-relaxed text-[#8a908b]">Демонстрационная версия · условия и сведения об исполнителе уточняются.</p>
       </div>
     </div>

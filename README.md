@@ -1,5 +1,12 @@
 # ÉCLAT Beauty Studio
 
+Copyright © 2026 Aleksn2003. All rights reserved. This project and its
+contents may not be copied, modified, distributed, published, or used
+commercially without prior written permission from the copyright holder,
+except where permitted by applicable law. See [LICENSE](./LICENSE).
+
+Permission requests: [GitHub profile](https://github.com/Aleksn2003).
+
 A responsive single-page beauty studio website built with Vue 3, Vite, Tailwind CSS, and Motion.
 
 ## Development
