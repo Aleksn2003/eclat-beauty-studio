@@ -6,7 +6,7 @@
 
 В репозитории нет открытой лицензии (`LICENSE`). Это уведомление фиксирует намерение автора, но не заменяет юридическую консультацию или отдельную лицензию.
 
-### English version
+### Authorship and Use (English)
 
 Template author: [Aleksn2003](https://github.com/Aleksn2003). All rights to the source code, structure, and design of the template created by the author remain with the author. Use, copying, modification, or distribution of the template or any part of it beyond the functionality provided by GitHub requires the author's prior permission. The public repository may be viewed and forked on GitHub under the [GitHub Terms of Service](https://docs.github.com/en/site-policy/github-terms/github-terms-of-service); this does not grant an open license to reuse the template.
 
